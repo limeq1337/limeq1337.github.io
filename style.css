@@ -2,4 +2,56 @@ body{
     background-color:black;
     color:white;
     font-family: 'Courier New', Courier, monospace;
+
+
+}
+#navbar{
+    background-color:rgba(0,0,0,0);
+}
+nav a{
+    text-decoration: none;
+    color:white;
+}
+#logo{
+    margin:auto;
+    text-align: center;
+    padding:20px;
+}
+a{
+
+     text-decoration: none;
+}
+a:hover{
+    color:white;
+    text-decoration: none;
+}
+#menu{
+    display:flex;
+    margin-top:10px;
+margin-right: 600px;
+    margin-left: 600px;
+    margin-bottom: 25px;
+
+}
+.link{
+    margin:auto;
+   
+
+}
+main{
+    margin-left:auto;
+    margin-right: auto;
+    text-align: center;
+    margin-top:50px;
+}
+footer{
+        position: fixed; 
+       padding:20px;
+            bottom: 0; 
+            width: 100%; 
+
+    
+    text-align: center;
+    
+
 }
