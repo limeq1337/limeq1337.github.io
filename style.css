@@ -35,7 +35,7 @@ margin-right: 33%;
 }
 .link{
     margin:auto;
-   
+   font-size:20px;
 
 }
 main{
@@ -56,4 +56,19 @@ footer{
 
 }
 p{font-size:1vw;
+}
+
+
+@media screen and (min-width: 601px) {
+ p {
+    font-size:1vw;
+     padding:20px;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  p {
+    font-size:1vw;
+           padding:20px;
+  }
 }
